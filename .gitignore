@@ -1,0 +1,55 @@
+#  C++ Build Files (Ignore Compiled Code)
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.bin
+*.dll
+*.dSYM/
+*.class
+chess_engine  # Ignore compiled C++ engine binary
+build/
+cmake-build-debug/
+
+#  Node.js Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+.dockerignore
+.env  # If using environment variables
+
+#  Logs & Debugging Files
+logs/
+*.log
+debug.log
+*.pid
+*.seed
+*.swo
+*.swp
+*.swn
+*.bak
+
+#  OS-Specific Files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+ehthumbs.db  # Windows
+
+#  IDE & Editor-Specific Files
+.vscode/
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+*.swp  # Vim swap files
+*.swo
+*.swn
+*.bak
+
+#  Miscellaneous Temporary Files
+tmp/
+.cache/
+*.~undo-tree~
+
