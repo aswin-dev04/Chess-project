@@ -4,12 +4,12 @@
 #include<string>
 #include<unordered_map>
 #include "Piece.h"
-/*#include "Pawn.h"*/
-/*#include "Knight.h"*/
-/*#include "Bishop.h"*/
-/*#include "Rook.h"*/
-/*#include "Queen.h"*/
-/*#include "King.h"*/
+#include "Pawn.h"
+#include "Knight.h"
+#include "Bishop.h"
+#include "Rook.h"
+#include "Queen.h"
+#include "King.h"
 
 
 

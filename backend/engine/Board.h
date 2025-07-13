@@ -10,7 +10,7 @@
 
 
 
-const std::unordered_map<char,int> pieceValues = {{'P',1},{'N',3},{'B',3},{'Q',9},{'K',0},{'R',5},{'p',1},{'n',3},{'b',3},{'q',9},{'k',0},{'r',5}};
+static const std::unordered_map<char,int> pieceValues = {{'P',1},{'N',3},{'B',3},{'Q',9},{'K',0},{'R',5},{'p',1},{'n',3},{'b',3},{'q',9},{'k',0},{'r',5}};
 
 class Board {
 public:

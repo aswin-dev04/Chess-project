@@ -9,9 +9,9 @@
 class King : public Piece
 {
 	public:
-		King(bool c): Piece(c?'P':'p',c){}
+		King(bool c,Board* board): Piece(c,c?'P':'p',board){}
 		std::vector<std::pair<int,int>> legalMoves(const std::pair<int,int>& pos) override; 
-		bool canCapture(const std::pair<int,int>& currPos, const std::pair<int,int>& targetPos) override;
+		bool canCapture(const std::pair<int,int>& currPos) override;
 };
 
 #endif
